@@ -1,0 +1,55 @@
+#startpage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+
+#timer {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+#a {
+    display: none;
+}
+
+#b {
+    display: none;
+}
+
+#c {
+    display: none;
+}
+
+#d {
+    display: none;
+}
+
+#gameover {
+    display: none;
+}
+
+#header {
+    display: none;
+}
+
+#display {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+#spacing {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+
+#clear {
+display: none;
+}

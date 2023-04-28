@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz Challenge!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="startPage">
+            <h2>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score and time!</h2>
+        </div>
+        <button id="start">Start Quiz</button>
+        <button id="highscore" onclick="showHighscore()">High Scores</button>
+        <div id="quiz">
+            <div id="timer">Time left: 75</div>
+                <div id="questions"></div>
+                    <button id="a" onclick="check('a')">A</button>
+                    <button id="b" onclick="check('b')">B</button>
+                    <button id="c" onclick="check('c')">C</button>
+                    <button id="d" onclick="check('d')">D</button>
+        </div>
+        <div id="gameover">
+            <div id="finalscore"></div>
+            <input type="text" size = "50" placeholder="Initial and save your score!" name="intials" id="initials"/>
+            <button id="submit">Submit</button>
+        </div>
+        <div id="scorecontainer"></div>
+        <div id="scorepage">
+            <div id="header">
+                <div id="spacing">
+                    <h3>Initials</h3>
+                    <h3>Score</h3>
+                </div>
+            </div>
+            <div id="display">
+                <div id="scoreinitials"></div>
+                <div id="scoredisplay"></div>
+            </div>
+        </div>
+        <div id="end">
+            <button id="clear" onclick="clearScore()">Clear Highscores</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
