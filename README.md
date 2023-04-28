@@ -9,6 +9,7 @@ Description
 <br>
 When you click the start button then a timer starts and you are presented with a question. 
 <br>
+<br>
 When you answer a question then you are presented with another question.  
 <br>
 When a question is answered incorrectly then time is subtrated from the clock.   
